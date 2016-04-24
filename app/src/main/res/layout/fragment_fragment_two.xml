@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.winged_elite.myapplication.fragmentTwo"
+    android:background="@drawable/ui1n">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/editText3"
+        android:editable="true"
+        android:layout_marginBottom="194dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:id="@+id/textView2"
+        android:layout_marginTop="64dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editText3"
+        android:editable="true"
+        android:enabled="true" />
+
+</RelativeLayout>
